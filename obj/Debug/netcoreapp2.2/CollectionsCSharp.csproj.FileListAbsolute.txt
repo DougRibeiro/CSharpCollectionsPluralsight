@@ -1,0 +1,11 @@
+C:\GitRepositories\pluralsight\CollectionsCSharp\bin\Debug\netcoreapp2.2\CollectionsCSharp.deps.json
+C:\GitRepositories\pluralsight\CollectionsCSharp\bin\Debug\netcoreapp2.2\CollectionsCSharp.runtimeconfig.json
+C:\GitRepositories\pluralsight\CollectionsCSharp\bin\Debug\netcoreapp2.2\CollectionsCSharp.runtimeconfig.dev.json
+C:\GitRepositories\pluralsight\CollectionsCSharp\bin\Debug\netcoreapp2.2\CollectionsCSharp.dll
+C:\GitRepositories\pluralsight\CollectionsCSharp\bin\Debug\netcoreapp2.2\CollectionsCSharp.pdb
+C:\GitRepositories\pluralsight\CollectionsCSharp\obj\Debug\netcoreapp2.2\CollectionsCSharp.csprojAssemblyReference.cache
+C:\GitRepositories\pluralsight\CollectionsCSharp\obj\Debug\netcoreapp2.2\CollectionsCSharp.csproj.CoreCompileInputs.cache
+C:\GitRepositories\pluralsight\CollectionsCSharp\obj\Debug\netcoreapp2.2\CollectionsCSharp.AssemblyInfoInputs.cache
+C:\GitRepositories\pluralsight\CollectionsCSharp\obj\Debug\netcoreapp2.2\CollectionsCSharp.AssemblyInfo.cs
+C:\GitRepositories\pluralsight\CollectionsCSharp\obj\Debug\netcoreapp2.2\CollectionsCSharp.dll
+C:\GitRepositories\pluralsight\CollectionsCSharp\obj\Debug\netcoreapp2.2\CollectionsCSharp.pdb
