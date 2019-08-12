@@ -12,7 +12,7 @@ namespace CSharpCollectionsPluralsight.Test
         public void Test1()
         {
 
-                List<String> daysOfTheWeek = new List<string>{
+            List<String> daysOfTheWeek = new List<string>{
 
                     "Monday",
                     "Tuesday",
@@ -21,9 +21,10 @@ namespace CSharpCollectionsPluralsight.Test
                     "Friday"
                 };
 
-                foreach(string d in daysOfTheWeek){
+            foreach (string d in daysOfTheWeek)
+            {
                 System.Diagnostics.Debug.WriteLine(d);
-                }
+            }
         }
     }
 }
