@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace DelegatesAndEvents
+namespace DelegateAndEvents2
 {
     class Program
     {
 
-        public delegate void WorkedPerformedHandler(int hours, WorkType wt);
+        public delegate int WorkedPerformedHandler(int hours, WorkType wt);
 
         static void Main(string[] args)
         {
@@ -20,29 +20,42 @@ namespace DelegatesAndEvents
 
             del1 += del2 + del3;
 
+
+            int finalHours = del1(10, WorkType.GenerateReports);
+
+            Console.WriteLine(finalHours);
+
+
             doWork(del1);
         }
 
-        static void doWork(WorkedPerformedHandler del) {
+        static void doWork(WorkedPerformedHandler del)
+        {
 
             del(4, WorkType.GoToMeetings);
         }
 
-        static void WorkedPerformed1(int hours, WorkType wt) {
+        static int WorkedPerformed1(int hours, WorkType wt)
+        {
 
-            Console.WriteLine("WorkedPerformed1 called "+hours);
+            Console.WriteLine("WorkedPerformed1 called " + hours);
+
+            return hours + 1;
+      
         }
 
-        static void WorkedPerformed2(int hours, WorkType wt)
+        static int WorkedPerformed2(int hours, WorkType wt)
         {
 
             Console.WriteLine("WorkedPerformed2 called " + hours);
+            return hours + 2;
         }
 
-        static void WorkedPerformed3(int hours, WorkType wt)
+        static int WorkedPerformed3(int hours, WorkType wt)
         {
 
             Console.WriteLine("WorkedPerformed3 called " + hours);
+            return hours + 3;
         }
     }
 
