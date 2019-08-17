@@ -23,25 +23,23 @@ namespace DelegatesAndEvents
             doWork(del1);
         }
 
-        static void doWork(WorkedPerformedHandler del) {
-
+        static void doWork(WorkedPerformedHandler del)
+        {
             del(4, WorkType.GoToMeetings);
         }
 
-        static void WorkedPerformed1(int hours, WorkType wt) {
-
-            Console.WriteLine("WorkedPerformed1 called "+hours);
+        static void WorkedPerformed1(int hours, WorkType wt)
+        {
+            Console.WriteLine("WorkedPerformed1 called " + hours);
         }
 
         static void WorkedPerformed2(int hours, WorkType wt)
         {
-
             Console.WriteLine("WorkedPerformed2 called " + hours);
         }
 
         static void WorkedPerformed3(int hours, WorkType wt)
         {
-
             Console.WriteLine("WorkedPerformed3 called " + hours);
         }
     }
